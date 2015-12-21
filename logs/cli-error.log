@@ -1,0 +1,42 @@
+2015-12-17 04:50:07 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crud.admin' doesn't exist
+Stack Trace:
+#0 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'admin', Array, Object(Cake\Database\Schema\Table))
+#1 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('admin', Array)
+#2 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('admin')
+#3 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Admin')
+#7 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Admin')
+#8 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('admin', 0)
+#9 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('admin')
+#11 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 D:\Working\cakephp\crud\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2015-12-17 07:52:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'crud.cakecomponents' doesn't exist
+Stack Trace:
+#0 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'cakecomponents', Array, Object(Cake\Database\Schema\Table))
+#1 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('cakecomponents', Array)
+#2 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\ORM\Table.php(423): Cake\Database\Schema\CachedCollection->describe('cakecomponents')
+#3 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\ORM\Table.php(499): Cake\ORM\Table->schema()
+#4 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Cakecomponents')
+#7 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Cakecomponents')
+#8 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('cakecomponents', 0)
+#9 D:\Working\cakephp\crud\vendor\cakephp\bake\src\Shell\BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#10 [internal function]: Bake\Shell\BakeShell->all('cakecomponents')
+#11 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\Shell.php(436): call_user_func_array(Array, Array)
+#12 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 D:\Working\cakephp\crud\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 D:\Working\cakephp\crud\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+

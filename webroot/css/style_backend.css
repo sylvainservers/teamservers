@@ -1,0 +1,55 @@
+.herderbackend li{
+    float: left;
+    display: inline;
+}
+.side-nav li.active{
+    background: rgba(0,0,0,0.025);
+}
+.form-horizontal label{
+    float: left;
+    width: 12%;
+}
+.form-horizontal input{
+    float: left;
+    width: 50%;
+}
+.form-horizontal select{
+    float: left;
+    width: 50%;
+}
+.form-horizontal .input{
+    width: 100%;
+    overflow: hidden;
+}
+.newstyleadd{
+    overflow: hidden;
+}
+.newstyleadd .input{
+    width: 51%;
+    float: left;
+}
+.newstyleadd select{
+    width: 80%;
+}
+.newstyleadd label{
+    width: 20%;
+}
+.newstyleadd a{
+    float: left;
+}
+.showaddsoftwares select{
+    margin-left: 20%;
+}
+.showadddatabases select{
+    margin-left: 20%;
+}
+.showaddusers select{
+    margin-left: 20%;
+}
+.vertical-table th{
+    width: 15%;
+}
+.vertical-table td{
+    width: 85%;
+    text-align: left;
+}
